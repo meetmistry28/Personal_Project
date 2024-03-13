@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -77,39 +78,39 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="ftco-nav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a href="index.html" className="nav-link">
+                <NavLink to='/' className="nav-link">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a href="about.html" className="nav-link">
+                <NavLink to='/about' className="nav-link">
                   About
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a href="services.html" className="nav-link">
+                <NavLink to='/services' className="nav-link">
                   Services
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a href="portfolio.html" className="nav-link">
+                <NavLink to='/portfolio' className="nav-link">
                   Portfolio
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a href="pricing.html" className="nav-link">
+                <NavLink to='/pricing' className="nav-link">
                   Pricing
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a href="blog.html" className="nav-link">
+                <NavLink to='/blog' className="nav-link">
                   Blog
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a href="contact.html" className="nav-link">
+                <NavLink to='/contact' className="nav-link">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

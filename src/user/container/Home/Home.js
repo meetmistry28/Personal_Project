@@ -1,6 +1,30 @@
 import React from "react";
 
 export default function Home() {
+  let owl = {
+    center: false,
+    loop: true,
+    items: 1,
+    margin: 30,
+    stagePadding: 0,
+    nav: false,
+    navText: [
+      '<span class="ion-ios-arrow-back">',
+      '<span class="ion-ios-arrow-forward">',
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  };
+
   return (
     <div>
       <div
@@ -10,11 +34,10 @@ export default function Home() {
       >
         <div className="overlay" />
         <div className="container">
-        
           <div
             className="row no-gutters slider-text js-fullheight align-items-center justify-content-start"
             data-scrollax-parent="true"
->
+          >
             <div className="col-md-6 ftco-animate">
               <h2 className="subheading">
                 Leave the house cleaning chores to us
@@ -115,6 +138,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="ftco-section ftco-no-pt ftco-no-pb">
         <div className="container">
           <div className="row d-flex no-gutters">
@@ -219,6 +243,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="ftco-section">
         <div className="container">
           <div className="row justify-content-center pb-5 mb-3">
@@ -345,6 +370,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="ftco-section ftco-no-pt">
         <div className="container">
           <div className="row">
@@ -516,6 +542,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="ftco-section testimony-section ftco-bg-dark">
         <div className="container">
           <div className="row justify-content-center pb-5 mb-3">
@@ -662,6 +689,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="ftco-section ftco-no-pb">
         <div className="container">
           <div className="row justify-content-center pb-5 mb-3">
@@ -834,6 +862,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="ftco-section">
         <div className="container">
           <div className="row justify-content-center pb-5 mb-3">
@@ -930,6 +959,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section
         className="ftco-section ftco-intro"
         style={{ backgroundImage: 'url("images/bg_3.jpg")' }}
@@ -950,6 +980,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="ftco-section bg-light">
         <div className="container">
           <div className="row justify-content-center pb-5 mb-3">
